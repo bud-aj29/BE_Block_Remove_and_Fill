@@ -1,41 +1,52 @@
 {
-	"format_version": 2,
-	"header": {
-		"description": "Remove or fill blocks based on player holding",
-		"name": "Block_Remove_and_Fill",
-		"uuid": "fe65f557-313b-4045-8cb0-10b30977c8a9",
-		"version": [ 0,0,5 ],
-		"min_engine_version": [ 1, 19, 30 ]
-	},
-	"modules": [
-		{
-			"description": "",
-			"type": "data",
-			"uuid": "f36ad665-00a0-49fc-b35f-e171bc010d24",
-			"version": [0, 0, 1]
-		}
-	],
-	"subpacks": [
-		{
-			"folder_name": "subpack_1",
-			"name": "Fill Small",
-			"memory_tier": 1
-		},
-		{
-			"folder_name": "subpack_2",
-			"name": "Fill Large",
-			"memory_tier": 2
-		},
-		{
-			"folder_name": "subpack_3",
-			"name": "Remove Cube",
-			"memory_tier": 3
-		},
-		{
-			"folder_name": "subpack_4",
-			"name": "Remove Wide",
-			"memory_tier": 4
-		}
-	]
+  "format_version": 2,
+  "header": {
+    "description": "Remove or fill blocks based on player holding",
+    "name": "Block_Remove_and_Fill_v0.0.6",
+    "uuid": "f630dc16-fc66-4fbe-9e0a-54b9c241ddcf",
+    "version": [
+      0,
+      0,
+      6
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      30
+    ]
+  },
+  "modules": [
+    {
+      "description": "",
+      "type": "data",
+      "uuid": "592ce7c6-0276-477a-a53d-ab25033f68e5",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "subpacks": [
+    {
+      "folder_name": "subpack_1",
+      "name": "Fill Small",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "subpack_2",
+      "name": "Fill Large",
+      "memory_tier": 2
+    },
+    {
+      "folder_name": "subpack_3",
+      "name": "Remove Cube",
+      "memory_tier": 3
+    },
+    {
+      "folder_name": "subpack_4",
+      "name": "Remove Wide",
+      "memory_tier": 4
+    }
+  ]
 }
-
