@@ -1,0 +1,38 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Remove or fill blocks based on player holding",
+    "name": "Block_Remove_and_Fill_v0.0.8",
+    "uuid": "a88494af-12fc-411c-9639-74fc805a2547",
+    "version": [
+      0,
+      0,
+      8
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      60
+    ]
+  },
+  "modules": [
+    {
+      "description": "",
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/block_remove_and_fill.js",
+      "uuid": "b6084b92-3e88-4e94-8aac-7e6582bb07d0",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.8.0"
+    }
+  ]
+}
