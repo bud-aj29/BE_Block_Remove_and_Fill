@@ -1,8 +1,7 @@
 - Last tested 1.20.60
 - This behavior pack removes or fills blocks based on which block the player is holding in the main-hand
-- Changes in v0.0.7:
-  - Switched to scripts, removing the need for player.json
-  - Toggle through options with the bucket instead of pack settings
+- Changes in v0.0.8:
+  - Renamed manifest file to fix a bug loading in some OS
 - It activates when the player uses a bucket in the main-hand. This gives an easy way to turn it off and on in game
 - Choose remove/fill type by toggling through options each time a bucket is used
 - Holding water buckets, lava buckets, and powder snow buckets remove/fill those block types respectively
